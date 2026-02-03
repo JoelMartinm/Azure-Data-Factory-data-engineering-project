@@ -16,6 +16,8 @@ The primary focus of this project is on:
 
 ## Architecture
 
+<img width="1536" height="1024" alt="ChatGPT Image Feb 3, 2026, 10_55_18 PM" src="https://github.com/user-attachments/assets/20929990-5906-425b-8607-11fbd65d8bbb" />
+
 Azure Blob Storage (CSV)  
 → Bronze Layer (Raw)  
 → Silver Layer (Cleaned & Standardized)  
@@ -101,6 +103,8 @@ Aggregations:
 ---
 
 ## Data Modeling
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e6e5c683-80a9-4b83-8f1e-38a504de00e8" />
 
 Star schema design optimized for analytics and BI tools.
 
