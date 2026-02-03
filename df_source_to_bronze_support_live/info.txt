@@ -1,0 +1,6 @@
+selected resource name:		df_source_to_bronze
+selected resource type:		dataflow
+factory name:			adf-retail-projectss
+factory location:		australiaeast
+subscription id:		f866c96c-a7f8-4f10-a70c-a4576834c96f
+time of download (UTC):		Tue, 03 Feb 2026 23:33:55 GMT

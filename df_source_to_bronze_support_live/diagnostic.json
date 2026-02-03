@@ -1,0 +1,23 @@
+{
+    "now": "2026-02-03T23:33:55.332Z",
+    "perfNow": 400976,
+    "diagnosticCorrelation": "30a8ff4b-3652-4e0d-87a5-b75d3b8bbf79",
+    "source": "DownloadSupportFiles",
+    "environment": {
+        "productName": "adf",
+        "buildVersion": "1.0.010226.1",
+        "environmentType": 3,
+        "resourceName": "adf-retail-projectss",
+        "resourceRegion": "australiaeast",
+        "resourceGroup": "rg-retail-analytics",
+        "subscriptionId": "f866c96c-a7f8-4f10-a70c-a4576834c96f",
+        "sessionId": "PBQZiq00LwFS4G01UpWY8k",
+        "operationId": "",
+        "gitType": "live",
+        "loggingKey": "d44c5e67-be1e-46b7-903e-b66c386f1d4a"
+    },
+    "additionalInfo": {
+        "selectedResource": "df_source_to_bronze",
+        "selectedResourceType": "dataflow"
+    }
+}
