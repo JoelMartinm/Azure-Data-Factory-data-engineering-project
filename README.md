@@ -13,7 +13,6 @@ The primary focus of this project is on:
 - Production-style transformations and aggregations
 
 ---
-
 ## Architecture
 
 <img width="1536" height="1024" alt="ChatGPT Image Feb 3, 2026, 10_55_18 PM" src="https://github.com/user-attachments/assets/20929990-5906-425b-8607-11fbd65d8bbb" />
@@ -47,6 +46,7 @@ Each row represents a single retail transaction.
 ---
 
 ## Bronze Layer (Raw)
+<img width="926" height="282" alt="Screenshot 2026-02-16 081222" src="https://github.com/user-attachments/assets/4ff758a2-5c53-4aee-ae7c-c82df69002f7" />
 
 ### Purpose
 The Bronze layer stores the raw data exactly as received from the source system.
@@ -60,6 +60,8 @@ The Bronze layer stores the raw data exactly as received from the source system.
 ---
 
 ## Silver Layer (Cleaned and Standardized)
+<img width="1389" height="445" alt="Screenshot 2026-02-16 081018" src="https://github.com/user-attachments/assets/4867f210-2f31-4a70-b480-c4c387caf57e" />
+
 
 ### Data Quality Filtering
 Invalid records are removed:
@@ -79,6 +81,9 @@ Item codes are parsed to extract item number and category.
 ---
 
 ## Gold Layer (Business-Ready Data Models)
+<img width="971" height="592" alt="Screenshot 2026-02-16 081126" src="https://github.com/user-attachments/assets/98762449-451a-458f-ade9-8d05439f56f0" />
+
+
 
 ### Fact Table: fact_sales
 - Grain: one row per transaction  
@@ -101,6 +106,8 @@ Aggregations:
 - last_sold_date = max(transaction_date)  
 
 ---
+## Pipeline
+<img width="1110" height="414" alt="Screenshot 2026-02-16 080841" src="https://github.com/user-attachments/assets/f06d659c-8673-4f7c-bd94-1bc6224a11f2" />
 
 ## Data Modeling
 
